@@ -1,0 +1,140 @@
+body{
+	
+	font-family: 'Roboto', sans-serif;
+	background: #2196f3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#Text{
+	text-align: center;
+	margin: 20px auto;
+/*	padding-top: 10px;*/
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#container{
+	width: 1000px;
+	height: 550px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ,
+	background: #EECDA3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	margin: 60px auto;
+}
+
+#calculator{
+	width: 320px;
+	height: 520px;
+	background: #E0EAFC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	margin: 0 auto;
+	top: 15px;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3); 
+}
+
+#result{
+	height: 120px;
+}
+
+#keybord{
+	height: 400px;
+}
+
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0px 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 20px 20px;
+	font-size: 30px;
+}
+
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.number, .empty{
+	background: #E0EAFC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.number, .operator{
+	cursor: pointer;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+
+.operator:active, .number:active{
+	font-size: 13px;
+}
+
+button:nth-child(1)
+{
+	font-size: 20px;
+	background-color: gray;
+}
+
+button:nth-child(2)
+{
+	font-size: 20px;
+	background-color: gray;
+}
+
+button:nth-child(3)
+{
+	font-size: 20px;
+	background-color: gray;
+}
+
+button:nth-child(4)
+{
+	font-size: 20px;
+	background-color: gray;
+}
+
+button:nth-child(8)
+{
+	font-size: 20px;
+	background-color: gray;
+}
+
+button:nth-child(12)
+{
+	font-size: 20px;
+	background-color: gray;
+}
+
+button:nth-child(16)
+{
+	font-size: 20px;
+	background-color: gray;
+}
+
+button:nth-child(20)
+{
+	font-size: 20px;
+	background-color: gray;
+}
